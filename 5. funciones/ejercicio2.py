@@ -1,6 +1,6 @@
 numero = int(input("Introduce un numero: "))
 
-def esPrimo(numero):
+def esPrimo(numero: int):
     if numero == 4:
         return False
     elif numero == 0 or numero == 1:
